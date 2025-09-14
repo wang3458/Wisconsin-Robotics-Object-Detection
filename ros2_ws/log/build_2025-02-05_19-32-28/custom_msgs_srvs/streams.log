@@ -1,0 +1,40 @@
+[0.019s] Invoking command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs
+[0.170s] -- The C compiler identification is GNU 13.3.0
+[0.298s] -- The CXX compiler identification is GNU 13.3.0
+[0.331s] -- Detecting C compiler ABI info
+[0.483s] -- Detecting C compiler ABI info - done
+[0.495s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.496s] -- Detecting C compile features
+[0.497s] -- Detecting C compile features - done
+[0.515s] -- Detecting CXX compiler ABI info
+[0.678s] -- Detecting CXX compiler ABI info - done
+[0.692s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.692s] -- Detecting CXX compile features
+[0.693s] -- Detecting CXX compile features - done
+[0.704s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.888s] -- Found Python3: /home/david-wang/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.052s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.059s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.194s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.199s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.234s] Traceback (most recent call last):
+[1.235s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[1.235s]     from catkin_pkg.package import parse_package_string
+[1.235s] ModuleNotFoundError: No module named 'catkin_pkg'
+[1.240s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.240s]   execute_process(/home/david-wang/.venv/bin/python3
+[1.240s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.240s]   /home/david-wang/Desktop/Projects/Wisconsin
+[1.240s]   Robotics/ros2_ws/src/custom_msgs_srvs/package.xml
+[1.241s]   /home/david-wang/Desktop/Projects/Wisconsin
+[1.241s]   Robotics/ros2_ws/build/custom_msgs_srvs/ament_cmake_core/package.cmake)
+[1.241s]   returned error code 1
+[1.241s] Call Stack (most recent call first):
+[1.241s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.241s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.242s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[1.242s] 
+[1.242s] [0m
+[1.242s] -- Configuring incomplete, errors occurred!
+[1.252s] Invoked command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs

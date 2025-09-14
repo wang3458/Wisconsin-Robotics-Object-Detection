@@ -1,0 +1,15 @@
+[0.019s] Invoking command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs
+[0.041s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.343s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.430s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.835s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:148 (get_filename_component):
+[0.835s]   get_filename_component called with incorrect number of arguments
+[0.835s] Call Stack (most recent call first):
+[0.835s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.836s] 
+[0.836s] [0m
+[0.836s] -- Configuring incomplete, errors occurred!
+[0.845s] Invoked command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs

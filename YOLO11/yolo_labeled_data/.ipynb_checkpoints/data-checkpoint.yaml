@@ -1,0 +1,17 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['bottle', 'hammer']
+
+# Hyperparameters
+hsv_h: 0.05  # Image hue (+/- fraction), Default: 0.015
+hsv_s: 0.5   # Image saturation (+/- fraction), Default: 0.7
+hsv_v: 0.2   # Image brightness (+/- fraction), Default: 0.4
+degrees: 10.0  # Image rotation (+/- deg), Default: 0.0
+scale: 0.2  # Image scale (+/- gain), Default: 0.5
+shear: 0.2  # Image shear (+/- deg), Default: 0.0
+perspective: 0.05  # Image perspective (+/- fraction), Default: 0.0
+mosaic: 0.5  # Image mosaic (probability), Default: 1.0
+mixup: 0.1  # Image mixup (probability), Default: 1.0

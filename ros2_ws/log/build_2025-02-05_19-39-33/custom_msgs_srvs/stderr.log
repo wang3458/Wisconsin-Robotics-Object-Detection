@@ -1,0 +1,6 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:148 (get_filename_component):
+  get_filename_component called with incorrect number of arguments
+Call Stack (most recent call first):
+  CMakeLists.txt:28 (rosidl_generate_interfaces)
+
+[0m

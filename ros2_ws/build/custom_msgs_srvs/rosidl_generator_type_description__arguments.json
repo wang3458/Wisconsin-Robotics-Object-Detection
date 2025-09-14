@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_msgs_srvs",
+  "output_dir": "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs/rosidl_generator_type_description/custom_msgs_srvs",
+  "idl_tuples": [
+    "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs/rosidl_adapter/custom_msgs_srvs:msg/Detection.idl"
+  ]
+}

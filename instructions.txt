@@ -1,0 +1,6 @@
+source ~/.venv/bin/activate
+source /opt/ros/jazzy/setup.bash
+cd ~/Desktop/Projects/'Wisconsin Robotics'/ros2_ws
+colcon build
+source install/setup.bash
+ros2 run object_detection_package yolo_detection

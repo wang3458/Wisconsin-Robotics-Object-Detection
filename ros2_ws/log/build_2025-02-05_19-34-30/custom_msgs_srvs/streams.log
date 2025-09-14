@@ -1,0 +1,18 @@
+[0.021s] Invoking command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs
+[0.041s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.341s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.431s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.433s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.590s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.590s]   rosidl_generate_interfaces() the passed file 'msg/Detection.msg' doesn't
+[0.590s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.590s]   '/home/david-wang/Desktop/Projects/Wisconsin
+[0.591s]   Robotics/ros2_ws/src/custom_msgs_srvs'
+[0.591s] Call Stack (most recent call first):
+[0.591s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.591s] 
+[0.591s] [0m
+[0.591s] -- Configuring incomplete, errors occurred!
+[0.598s] Invoked command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs

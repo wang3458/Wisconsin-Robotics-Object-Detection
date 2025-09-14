@@ -1,0 +1,7 @@
+numpy
+opencv-python
+rosidl_runtime_py
+setuptools
+torch
+ultralytics
+zmq

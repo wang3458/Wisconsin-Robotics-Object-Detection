@@ -1,0 +1,30 @@
+[1.001s] Invoking command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/src/object_detection_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/object_detection_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection_package build --build-base /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/object_detection_package/build install --record /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/object_detection_package/install.log --single-version-externally-managed install_data
+[1.287s] running egg_info
+[1.306s] writing ../../build/object_detection_package/object_detection_package.egg-info/PKG-INFO
+[1.307s] writing dependency_links to ../../build/object_detection_package/object_detection_package.egg-info/dependency_links.txt
+[1.307s] writing entry points to ../../build/object_detection_package/object_detection_package.egg-info/entry_points.txt
+[1.308s] writing requirements to ../../build/object_detection_package/object_detection_package.egg-info/requires.txt
+[1.308s] writing top-level names to ../../build/object_detection_package/object_detection_package.egg-info/top_level.txt
+[1.342s] reading manifest file '../../build/object_detection_package/object_detection_package.egg-info/SOURCES.txt'
+[1.343s] adding license file 'LICENSE'
+[1.343s] writing manifest file '../../build/object_detection_package/object_detection_package.egg-info/SOURCES.txt'
+[1.344s] running build
+[1.344s] running build_py
+[1.344s] copying object_detection_package/yolo_detection.py -> /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/object_detection_package/build/lib/object_detection_package
+[1.344s] running install
+[1.353s] running install_lib
+[1.370s] copying /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/object_detection_package/build/lib/object_detection_package/yolo_detection.py -> /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package/lib/python3.12/site-packages/object_detection_package
+[1.371s] byte-compiling /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package/lib/python3.12/site-packages/object_detection_package/yolo_detection.py to yolo_detection.cpython-312.pyc
+[1.373s] running install_data
+[1.373s]   File "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package/lib/python3.12/site-packages/object_detection_package/yolo_detection.py", line 124
+[1.373s]     msg.dis = dis:.2f
+[1.373s]                    ^
+[1.373s] SyntaxError: invalid decimal literal
+[1.374s] 
+[1.374s] running install_egg_info
+[1.391s] removing '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package/lib/python3.12/site-packages/object_detection_package-0.0.0-py3.12.egg-info' (and everything under it)
+[1.391s] Copying ../../build/object_detection_package/object_detection_package.egg-info to /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package/lib/python3.12/site-packages/object_detection_package-0.0.0-py3.12.egg-info
+[1.393s] running install_scripts
+[1.534s] Installing yolo_detection script to /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package/lib/object_detection_package
+[1.535s] writing list of installed files to '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/object_detection_package/install.log'
+[1.586s] Invoked command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/src/object_detection_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/object_detection_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection_package build --build-base /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/object_detection_package/build install --record /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/object_detection_package/install.log --single-version-externally-managed install_data

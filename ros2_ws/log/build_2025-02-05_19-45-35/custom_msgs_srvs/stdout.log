@@ -1,0 +1,11 @@
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_custom_msgs_srvs
+running egg_info
+creating custom_msgs_srvs.egg-info
+writing custom_msgs_srvs.egg-info/PKG-INFO
+writing dependency_links to custom_msgs_srvs.egg-info/dependency_links.txt
+writing top-level names to custom_msgs_srvs.egg-info/top_level.txt
+writing manifest file 'custom_msgs_srvs.egg-info/SOURCES.txt'
+reading manifest file 'custom_msgs_srvs.egg-info/SOURCES.txt'
+writing manifest file 'custom_msgs_srvs.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_custom_msgs_srvs_egg

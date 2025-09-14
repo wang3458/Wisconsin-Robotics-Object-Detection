@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: object-detection-package
+Version: 0.0.0
+Summary: A ROS2 package for YOLO-based object detection
+Maintainer: David Wang
+Maintainer-email: davidw070129@gmail.com
+License: Apache-2.0
+License-File: LICENSE

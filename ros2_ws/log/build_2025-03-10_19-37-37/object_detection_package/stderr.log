@@ -1,0 +1,5 @@
+  File "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package/lib/python3.12/site-packages/object_detection_package/yolo_detection.py", line 113
+    length = if (x2 - x1) > (y2 - y1) ? (x2 - x1) else (y2 - y1)
+             ^^
+SyntaxError: invalid syntax
+

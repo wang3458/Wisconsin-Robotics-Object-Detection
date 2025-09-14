@@ -1,0 +1,220 @@
+[0.023s] Invoking command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs -- -j12 -l12
+[0.066s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.097s] -- Found Python3: /home/david-wang/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.215s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.296s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.301s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.640s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.887s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.276s] -- Found Python3: /home/david-wang/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.299s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.300s] -- Configured cppcheck include dirs: 
+[1.300s] -- Configured cppcheck exclude dirs and/or files: 
+[1.301s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.302s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.304s] -- Added test 'lint_cmake' to check CMake code style
+[1.306s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.315s] -- Added test 'uncrustify' to check C / C++ code style
+[1.315s] -- Configured uncrustify additional arguments: 
+[1.317s] -- Added test 'xmllint' to check XML markup files
+[1.321s] -- Configuring done (1.3s)
+[1.366s] -- Generating done (0.0s)
+[1.379s] -- Build files have been written to: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs
+[1.416s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.425s] [  2%] Built target ament_cmake_python_copy_custom_msgs_srvs
+[1.543s] [  2%] Built target custom_msgs_srvs__rosidl_generator_type_description
+[1.551s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.559s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.567s] running egg_info
+[1.576s] writing custom_msgs_srvs.egg-info/PKG-INFO
+[1.576s] writing dependency_links to custom_msgs_srvs.egg-info/dependency_links.txt
+[1.576s] writing top-level names to custom_msgs_srvs.egg-info/top_level.txt
+[1.602s] reading manifest file 'custom_msgs_srvs.egg-info/SOURCES.txt'
+[1.603s] writing manifest file 'custom_msgs_srvs.egg-info/SOURCES.txt'
+[1.628s] [  8%] Built target ament_cmake_python_build_custom_msgs_srvs_egg
+[1.724s] [  8%] Built target custom_msgs_srvs__cpp
+[1.738s] [ 14%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs_srvs/msg/detail/detection__functions.c.o[0m
+[1.738s] [ 14%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs_srvs/msg/detail/detection__description.c.o[0m
+[1.739s] [ 17%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs_srvs/msg/detail/detection__type_support.c.o[0m
+[1.773s] [ 20%] [32m[1mLinking C shared library libcustom_msgs_srvs__rosidl_generator_c.so[0m
+[1.806s] [ 20%] Built target custom_msgs_srvs__rosidl_generator_c
+[1.814s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.814s] [ 38%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.814s] [ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.814s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.814s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.815s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.973s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs_srvs/msg/detection__type_support.cpp.o[0m
+[1.973s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs_srvs/msg/detection__type_support.cpp.o[0m
+[1.989s] [ 47%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs_srvs/msg/detail/detection__type_support.c.o[0m
+[1.989s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs_srvs/msg/detail/detection__type_support.cpp.o[0m
+[2.004s] [ 52%] [32m[1mLinking CXX shared library libcustom_msgs_srvs__rosidl_typesupport_c.so[0m
+[2.007s] [ 55%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs_srvs/msg/detail/detection__type_support_c.cpp.o[0m
+[2.008s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_srvs/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[2.018s] [ 61%] [32m[1mLinking C shared library libcustom_msgs_srvs__rosidl_typesupport_introspection_c.so[0m
+[2.037s] [ 61%] Built target custom_msgs_srvs__rosidl_typesupport_c
+[2.044s] [ 61%] Built target custom_msgs_srvs__rosidl_typesupport_introspection_c
+[2.175s] [ 64%] [32m[1mLinking CXX shared library libcustom_msgs_srvs__rosidl_typesupport_cpp.so[0m
+[2.190s] [ 67%] [32m[1mLinking CXX shared library libcustom_msgs_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[2.208s] [ 67%] Built target custom_msgs_srvs__rosidl_typesupport_cpp
+[2.226s] [ 67%] Built target custom_msgs_srvs__rosidl_typesupport_introspection_cpp
+[2.304s] [ 73%] [32m[1mLinking CXX shared library libcustom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.304s] [ 73%] [32m[1mLinking CXX shared library libcustom_msgs_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[2.342s] [ 73%] Built target custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp
+[2.342s] [ 73%] Built target custom_msgs_srvs__rosidl_typesupport_fastrtps_c
+[2.359s] [ 73%] Built target custom_msgs_srvs
+[2.379s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.569s] [ 76%] Built target custom_msgs_srvs__py
+[2.592s] [ 79%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs_srvs/msg/_detection_s.c.o[0m
+[2.677s] [ 82%] [32m[1mLinking C shared library libcustom_msgs_srvs__rosidl_generator_py.so[0m
+[2.711s] [ 82%] Built target custom_msgs_srvs__rosidl_generator_py
+[2.732s] [ 91%] [32mBuilding C object CMakeFiles/custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_msgs_srvs/_custom_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.732s] [ 91%] [32mBuilding C object CMakeFiles/custom_msgs_srvs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_msgs_srvs/_custom_msgs_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.732s] [ 91%] [32mBuilding C object CMakeFiles/custom_msgs_srvs_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_msgs_srvs/_custom_msgs_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.799s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_introspection_c.so[0m
+[2.799s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_c.so[0m
+[2.803s] [100%] [32m[1mLinking C shared module rosidl_generator_py/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.so[0m
+[2.825s] [100%] Built target custom_msgs_srvs_s__rosidl_typesupport_introspection_c
+[2.825s] [100%] Built target custom_msgs_srvs_s__rosidl_typesupport_c
+[2.831s] [100%] Built target custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c
+[2.845s] Invoked command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs -- -j12 -l12
+[2.853s] Invoking command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs
+[2.861s] -- Install configuration: ""
+[2.861s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs_srvs
+[2.861s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/Detection.json
+[2.861s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs
+[2.861s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg
+[2.861s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/rosidl_generator_c__visibility_control.h
+[2.861s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail
+[2.862s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__struct.h
+[2.862s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__functions.h
+[2.862s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__description.c
+[2.862s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__type_support.c
+[2.862s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__functions.c
+[2.862s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__type_support.h
+[2.862s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detection.h
+[2.862s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/library_path.sh
+[2.862s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/library_path.dsv
+[2.862s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_generator_c.so
+[2.862s] -- Set non-toolchain portion of runtime path of "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_generator_c.so" to ""
+[2.862s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs
+[2.862s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg
+[2.863s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.863s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail
+[2.863s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[2.863s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_fastrtps_c.so
+[2.863s] -- Set non-toolchain portion of runtime path of "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.863s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs
+[2.864s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg
+[2.864s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail
+[2.864s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__type_support.c
+[2.864s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[2.864s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.864s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_introspection_c.so
+[2.864s] -- Set non-toolchain portion of runtime path of "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_introspection_c.so" to ""
+[2.865s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_c.so
+[2.865s] -- Set non-toolchain portion of runtime path of "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_c.so" to ""
+[2.865s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs
+[2.865s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg
+[2.865s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detection.hpp
+[2.865s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail
+[2.865s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__builder.hpp
+[2.865s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__traits.hpp
+[2.865s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__type_support.hpp
+[2.865s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__struct.hpp
+[2.865s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.865s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs
+[2.866s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg
+[2.866s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail
+[2.866s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/dds_fastrtps
+[2.866s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[2.866s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.866s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so
+[2.866s] -- Set non-toolchain portion of runtime path of "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.866s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs
+[2.866s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg
+[2.866s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail
+[2.866s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[2.866s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/include/custom_msgs_srvs/custom_msgs_srvs/msg/detail/detection__type_support.cpp
+[2.867s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_introspection_cpp.so
+[2.867s] -- Set non-toolchain portion of runtime path of "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.867s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_cpp.so
+[2.867s] -- Set non-toolchain portion of runtime path of "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_cpp.so" to ""
+[2.867s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/pythonpath.sh
+[2.868s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/pythonpath.dsv
+[2.868s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs-0.0.0-py3.12.egg-info
+[2.868s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.868s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.868s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs-0.0.0-py3.12.egg-info/PKG-INFO
+[2.868s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs-0.0.0-py3.12.egg-info/top_level.txt
+[2.868s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs
+[2.868s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_c.so
+[2.868s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/_custom_msgs_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[2.868s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/_custom_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.868s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_introspection_c.so
+[2.869s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/__init__.py
+[2.869s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.so
+[2.869s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/_custom_msgs_srvs_s.ep.rosidl_typesupport_c.c
+[2.869s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/msg
+[2.869s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/msg/_detection.py
+[2.869s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/msg/__init__.py
+[2.869s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/msg/_detection_s.c
+[2.897s] Listing '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs'...
+[2.897s] Compiling '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/__init__.py'...
+[2.898s] Listing '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/msg'...
+[2.898s] Compiling '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/msg/__init__.py'...
+[2.898s] Compiling '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/msg/_detection.py'...
+[2.902s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.so
+[2.902s] -- Set non-toolchain portion of runtime path of "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[2.902s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_introspection_c.so
+[2.903s] -- Set non-toolchain portion of runtime path of "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_introspection_c.so" to ""
+[2.903s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_c.so
+[2.903s] -- Set non-toolchain portion of runtime path of "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/python3.12/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_c.so" to ""
+[2.903s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_generator_py.so
+[2.904s] -- Set non-toolchain portion of runtime path of "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_generator_py.so" to ""
+[2.904s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/Detection.idl
+[2.904s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/Detection.msg
+[2.904s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/ament_index/resource_index/package_run_dependencies/custom_msgs_srvs
+[2.904s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/ament_index/resource_index/parent_prefix_path/custom_msgs_srvs
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/ament_prefix_path.sh
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/ament_prefix_path.dsv
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/path.sh
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/path.dsv
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.bash
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.sh
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.zsh
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.dsv
+[2.905s] -- Installing: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/package.dsv
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/ament_index/resource_index/packages/custom_msgs_srvs
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/export_custom_msgs_srvs__rosidl_generator_cExport.cmake
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/export_custom_msgs_srvs__rosidl_generator_cExport-noconfig.cmake
+[2.905s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/export_custom_msgs_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/export_custom_msgs_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cExport.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cExport.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/export_custom_msgs_srvs__rosidl_generator_cppExport.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/export_custom_msgs_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/export_custom_msgs_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cppExport.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/export_custom_msgs_srvs__rosidl_generator_pyExport.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/export_custom_msgs_srvs__rosidl_generator_pyExport-noconfig.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/rosidl_cmake-extras.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.906s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.907s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[2.907s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.907s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.907s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.907s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvsConfig.cmake
+[2.907s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvsConfig-version.cmake
+[2.907s] -- Up-to-date: /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/custom_msgs_srvs/share/custom_msgs_srvs/package.xml
+[2.908s] Invoked command in '/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/install/object_detection_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/build/custom_msgs_srvs

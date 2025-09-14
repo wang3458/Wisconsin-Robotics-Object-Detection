@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_msgs_srvs",
+  "non_idl_tuples": [
+    "/home/david-wang/Desktop/Projects/Wisconsin Robotics/ros2_ws/src/custom_msgs_srvs:msg/Detection.msg"
+  ]
+}

@@ -1,0 +1,23 @@
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_custom_msgs_srvs
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 21, in <module>
+    from rosidl_generator_type_description import generate_type_hash
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+gmake[2]: *** [CMakeFiles/custom_msgs_srvs__rosidl_generator_type_description.dir/build.make:75: rosidl_generator_type_description/custom_msgs_srvs/msg/Detection.json] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/custom_msgs_srvs__rosidl_generator_type_description.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+creating custom_msgs_srvs.egg-info
+writing custom_msgs_srvs.egg-info/PKG-INFO
+writing dependency_links to custom_msgs_srvs.egg-info/dependency_links.txt
+writing top-level names to custom_msgs_srvs.egg-info/top_level.txt
+writing manifest file 'custom_msgs_srvs.egg-info/SOURCES.txt'
+reading manifest file 'custom_msgs_srvs.egg-info/SOURCES.txt'
+writing manifest file 'custom_msgs_srvs.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_custom_msgs_srvs_egg
+gmake: *** [Makefile:146: all] Error 2

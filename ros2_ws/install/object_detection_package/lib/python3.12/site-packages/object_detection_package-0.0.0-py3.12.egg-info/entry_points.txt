@@ -1,0 +1,2 @@
+[console_scripts]
+yolo_detection = object_detection_package.yolo_detection:main
